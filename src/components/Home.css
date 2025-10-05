@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f0f4f8;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.top-header {
+  background-color: #1155cc;
+  color: white;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  border-radius: 100px;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.header-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.header-title {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.home-page {
+  padding: 40px 60px;
+}
+
+.home-page h1 {
+  margin: 30px 0 20px 0;
+  color: #1155cc;
+  text-align: center;
+  font-size: 24px;
+}
+
+.form-saude {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0 auto 40px auto;
+  max-width: 500px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.form-saude h2 {
+  text-align: center;
+  color: #1155cc;
+  margin-bottom: 10px;
+}
+
+.form-saude input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #eaf1fe;
+}
+
+.form-saude button,
+.tabela-saude button {
+  padding: 10px 16px;
+  background-color: #1155cc;
+  color: white;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.form-saude button:hover,
+.tabela-saude button:hover {
+  background-color: #0b3d99;
+}
+
+.tabela-saude {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.tabela-saude th,
+.tabela-saude td {
+  padding: 14px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+.tabela-saude th {
+  background-color: #3498db;
+  color: white;
+  font-weight: 600;
+}
+
+.tabela-saude tr:hover {
+  background-color: #f2f2f2;
+}

@@ -1,0 +1,124 @@
+.login-page {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c9daf8;
+}
+
+.login-container {
+  width: 60vw;
+  height: 60vh;
+  display: flex;
+  flex-direction: row;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 20px;
+}
+
+.left-container {
+  width: 60vw;
+  background-color: #ffffff;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 20px 0px 0px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.left-container h1 {
+  color: #1155cc;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.right-container {
+  width: 40vw;
+  background-color: #1155cc;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 0px 20px 20px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.right-container h1,
+.right-container p {
+  color: #ffffff;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+}
+
+.right-container button {
+  margin-top: 20px;
+  background-color: #ffffff;
+  color: #1155cc;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 100px;
+  cursor: pointer;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.right-container button:hover {
+  background-color: #eaf1fe;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.form-group input {
+  height: 40px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #eaf1fe;
+}
+
+.form-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container h3,
+.form-container h4 {
+  opacity: 0.8;
+  color: #1155cc;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.form-container .submit-button {
+  width: 40%;
+  height: 40px;
+  background-color: #1155cc;
+  color: #ffffff;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  float: left;
+}
+
+.form-container .submit-button:hover {
+  background-color: #0b3d99;
+}
+
+.erro {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
